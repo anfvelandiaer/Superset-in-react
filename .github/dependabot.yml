@@ -1,0 +1,18 @@
+version: 2
+updates:
+
+  - package-ecosystem: "npm"
+    directory: "/frontend"
+    schedule:
+      # Check for updates to GitHub Actions every weekday
+      interval: "daily"
+    target-branch: "development"
+    assignees:
+      - "anfvelandiaer"
+      - "sergiohortua"
+    commit-message:
+      prefix: "[PRUEBA] "
+    labels:
+      - "npm"
+      - "PRUEBA"
+    open-pull-requests-limit: 5
