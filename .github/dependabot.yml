@@ -6,12 +6,13 @@ updates:
     schedule:
       # Check for updates to GitHub Actions every weekday
       interval: "daily"
-      assignees:
-        - "anfvelandiaer"
-        - "sergiohortua"
-      commit-message:
-        prefix: "[PRUEBA] "
-      labels:
-        - "npm"
-        - "PRUEBA"
-      open-pull-requests-limit: 5
+    target-branch: "development"
+    assignees:
+      - "anfvelandiaer"
+      - "sergiohortua"
+    commit-message:
+      prefix: "[PRUEBA] "
+    labels:
+      - "npm"
+      - "PRUEBA"
+    open-pull-requests-limit: 5
