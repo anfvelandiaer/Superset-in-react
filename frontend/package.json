@@ -39,7 +39,7 @@
     "relay-runtime": "^14.1.0",
     "shortid": "^2.2.14",
     "url": "^0.11.0",
-    "use-state-with-callback": "^1.0.18",
+    "use-state-with-callback": "^3.0.2",
     "@dnd-kit/core": "^6.0.7",
     "@dnd-kit/sortable": "^7.0.2",
     "@dnd-kit/utilities": "^3.2.1"
