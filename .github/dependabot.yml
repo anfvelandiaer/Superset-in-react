@@ -9,7 +9,6 @@ updates:
     target-branch: "development"
     assignees:
       - "anfvelandiaer"
-      - "sergiohortua"
     commit-message:
       prefix: "[PRUEBA] "
     labels:
